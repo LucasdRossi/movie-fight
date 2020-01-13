@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Movie Fight</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <p>Movie Fight</p>
+      <i class="fas fa-film"></i>
+    </div>
+    <div id="body">
+      <div id="left" class="movie-wrapper">
+        <div class="autocomplete"></div>
+        <div class="movie"></div>
+      </div>
+      <div id="right" class="movie-wrapper">
+        <div class="autocomplete"></div>
+        <div class="movie"></div>
+      </div>
+    </div>
+    <div id="tutorial-wrapper">
+      <div id="tutorial"><h3>Search for a movie on both sides</h3></div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="scripts/utils.js"></script>
+    <script src="scripts/autocomplete.js"></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
